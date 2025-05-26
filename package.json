@@ -1,0 +1,33 @@
+{
+  "name": "tourismapi",
+  "version": "1.0.0",
+  "description": "API de turismo",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nneettoo01/TourismAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nneettoo01/TourismAPI/issues"
+  },
+  "homepage": "https://github.com/Nneettoo01/TourismAPI#readme",
+  "dependencies": {
+    "@prisma/client": "^6.8.2",
+    "bcrypt": "^6.0.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "sqlite3": "^5.1.7",
+    "zod": "^3.25.28"
+  },
+  "devDependencies": {
+    "prisma": "^6.8.2"
+  }
+}
